@@ -9,7 +9,6 @@ pipeline {
         registry = "docker.io"
     }
 	
-	
     stages {
 
         stage('Checkout') {
