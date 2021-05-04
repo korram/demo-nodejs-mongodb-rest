@@ -8,7 +8,6 @@ pipeline {
         image = "korram/demo-nodejs"
         registry = "docker.io"
     }
-
     stages {
 
         stage('Checkout') {
